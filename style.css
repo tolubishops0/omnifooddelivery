@@ -463,81 +463,7 @@ a {
   margin-bottom: 15px;
 }
 
-
-/*---FORM----
-
-/*i have not been using this at all, i hope i dont get to revert to it.*/
-/* .contact-form {
-  width: 60%;
-  margin: 0 auto;
-}
-
-label {
-  display: flex;
-  border-radius: 3px;
-}
-.contact-form {
-  padding-left: 30%;
-}
-
-input,
-select,
-textarea {
-  margin-left: 200px;
-  margin-bottom: 20px;
-  width: 100%;
-  padding: 7px;
-  border-radius: 5px;
-  border: 1px solid #e67e22;
-}
-
-
----FORM----
-input {
-  margin-left: 180px;
-}
-
-select {
-  margin-left: 60px;
-}
-
-textarea {
-  margin-left: 130px;
-}
-
-input,
-select,
-textarea {
-  border: 1px solid #e67e22;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-.contact-form {
-  padding-left: 20%;
-}
-
-.submitbutton {
-  padding-left: 15%;
-}
-
-.button {
-  background-color: #e67e22;
-  border-radius: 50px;
-  width: 100px;
-  height: 30px;
-  transition: background-color 0.2s, border 0.2s, color 0.2s;
-}
-
-.tickcheckbox {
-  margin: 10px 5px 20px 135px;
-}
-
-.dropaline {
-  padding-bottom: 10%;
-} */
-
-/*-----FOOTER-----*/
+/*-----FORM-----*/
 
 label{
   display: inline-block;
@@ -568,7 +494,7 @@ textarea {
 .button:active{
   background-color:  #cf6d17;
 }
-/* footer*/
+/*-----FOOTER-----*/
 
 .footer-nav{
   transition: all .2s ease-in-out;
