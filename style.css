@@ -311,10 +311,11 @@ header {
 
 .rows {
   display: flex;
-  width: 85%;
+  width: 100%;
+  flex-direction: row;
 }
 
-.numbersteps {
+/* .numbersteps {
   color: #e67e22;
   border: 2px solid #e67e22;
   border-radius: 50%;
@@ -326,6 +327,21 @@ header {
   font-weight: bold;
   padding-top: 5px;
   float: left;
+} */
+
+.numbersteps{
+  color: #e67e22;
+  border-radius: 50%;
+  border: 2px solid #e67e22;
+  width: 50px;
+  height: 40px;
+  padding-top: 6px;
+  padding-left: 16px;
+  font-weight: bold;
+}
+
+.steps-box{
+  margin-top: 50px;
 }
 
 p {
@@ -402,8 +418,9 @@ cite img {
 .main-container-plan-box {
   display: flex;
   text-align: justify;
-  gap: 150px;
-  padding-left: 10%;
+  gap: 100px;
+  padding-left: 18%;
+  /* padding-right: 15%; */
 }
 
 .plan-box {
@@ -446,11 +463,11 @@ a {
   margin-bottom: 15px;
 }
 
-/*---FORM----*/
+
 /*---FORM----
 
 /*i have not been using this at all, i hope i dont get to revert to it.*/
-.contact-form {
+/* .contact-form {
   width: 60%;
   margin: 0 auto;
 }
@@ -473,9 +490,9 @@ textarea {
   border-radius: 5px;
   border: 1px solid #e67e22;
 }
----FORM----*/
 
-/*---FORM----*/
+
+---FORM----
 input {
   margin-left: 180px;
 }
@@ -518,9 +535,50 @@ textarea {
 
 .dropaline {
   padding-bottom: 10%;
-}
+} */
 
 /*-----FOOTER-----*/
+
+label{
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid #e67e22;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position:relative;
+}
+
+.section-row{
+  padding-left:450px ;
+}
+
+.button{
+  background-color: #e67e22;
+  width: 100px;
+  border-radius: 40px;
+  height: 30px;
+}
+
+.button:active{
+  background-color:  #cf6d17;
+}
+/* footer*/
+
+.footer-nav{
+  transition: all .2s ease-in-out;
+}
+
+.footer-nav :hover{
+  color: #fff;
+  border: none;
+  transform: scale(1.1);
+}
 
 footer {
   background-color: #444;
